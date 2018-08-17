@@ -6,7 +6,7 @@ The purpose of this paper(Hinton '86) is teaching NN to understand relationships
 
 <b>Family Tree</b>
 
-<img src="http://147.47.41.66/html/data/images/ht86_0.png" width="850" height="600">
+<img src="http://147.47.41.66/data/images/ht86_0.png" width="850" height="600">
 
 The family tree above can be expressed by a set of tripletts.
 
@@ -22,7 +22,7 @@ Pierro	wife	Francesca
 The family tree contains 104 triplett.(FamilyTree.xlsx)
 
 <b>Neural Network Structure</b>
-<img src="http://147.47.41.66/html/data/images/ht86_1.png" width="850" height="600">
+<img src="http://147.47.41.66/data/images/ht86_1.png" width="850" height="600">
 
 <b>Feed forward</b>
 There are not bias nodes.
@@ -42,14 +42,14 @@ acceleration medthod : delta W(t-1)
 t is incremented by 1 for each sweep through the whole set of input-output cases, and alpha is an exponential decay factor between 0 and 1 that determines the relative contribution of the current gradient and ealier gradients on the weight change.
 
 The results.
-<img src="http://147.47.41.66/html/data/images/ht86_2.png" width="850" height="500">
-<img src="http://147.47.41.66/html/data/images/ht86_3.png" width="850" height="500">
+<img src="http://147.47.41.66/data/images/ht86_2.png" width="850" height="500">
+<img src="http://147.47.41.66/data/images/ht86_3.png" width="850" height="500">
 
 Weights from the 24 input units for people
-<img src="http://147.47.41.66/html/data/images/ht86_4.png" width="870" height="180">
+<img src="http://147.47.41.66/data/images/ht86_4.png" width="870" height="180">
 
 Weights from the 12 input units for relations
-<img src="http://147.47.41.66/html/data/images/ht86_5.png" width="870" height="190">
+<img src="http://147.47.41.66/data/images/ht86_5.png" width="870" height="190">
 
 My model got 2 out of 4 test cases,
 wheree "correct" means that the output unit corresponding to the right answer had an activity level above 0.5, and all the other output units were below 0.5.
