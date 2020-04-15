@@ -1,5 +1,5 @@
 /**
- student id: 2016-30729 / name: Kyungmin Lee
+ name: Kyungmin Lee, email: sephiroce@snu.ac.kr
  update: 20161005 
   - Weight update rules were improved(?)
   - print out the best distributed representations
